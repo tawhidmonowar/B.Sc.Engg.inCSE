@@ -1,0 +1,10 @@
+1. Function.
+2. Increasing and decreasing functions in several intervals.
+3. Absolute value.
+4. Interval.
+5. Existence of limits 
+6. Continuity.
+7. Differentiability.
+8. Graphs of Several functions.
+9. Domain & Range.
+10. Differential Coefficients.

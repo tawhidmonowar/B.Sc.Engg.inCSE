@@ -1,0 +1,70 @@
+1. What is Proposition?
+-- Proposition is declarative sentence which can be TRUE or FALSE but cannot be both.
+
+2. What is Propositional Variables?
+-- Variables that are use to represent propositions are called Propositional variables.
+
+3. Logical Operators
+- Negation '¬' "It is not the case that P"
+- Conjunction '^' "and/but"
+- Disjunction/Inclusiv or '∨' "or"
+- Exclusive OR/XOR '⊕' "both can't be true"
+- Implication/conditional statement '→' "if P then Q"
+-- Converse 'Q→P'
+-- Contrapositive '¬Q→¬P'
+- - Inverse '¬P→¬Q'
+- Bitconditional '↔' "P if and only if Q" true if p and q are same.S (if and only if = iff)
+
+4. Why "P only if Q" is not equivalent to "if Q then P"?
+-- P only if Q is false when p is TRUE and Q is FALSE, as when p is true and Q is false, "p only if q" is false but with same truth values of p and q, "if q then p" is true. Therefore "p only if q" is not equivalent to "if q then p". 
+
+5. Precedence Table
+-1. Negation
+-2. Conjunction
+-3. Disjunction
+-4. Implication
+-5. Bitconditional
+
+6. What is tautology?
+- Compound proposition which is alwaye TRUE.
+
+7. What is Contradiction?
+- Compound proposition which is alwaye FALSE.
+
+8. What is Contingency?
+- Compound proposition which is sometimes TRUE sometimes FALSE.
+
+9. What is Satisfiability?
+- A compound proposition is satisfiable if there is at least one TRUE result in its truth table.
+
+10. What is Unsatisfiability?
+- Not even a single TRUE result in its truth table.
+
+11. What is Valid?
+-  A compound  proposition is valid when its a tautology.
+
+12. What is Invalid?
+- A compound  proposition is Invalid when it is either a contyradiction or contingency.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
