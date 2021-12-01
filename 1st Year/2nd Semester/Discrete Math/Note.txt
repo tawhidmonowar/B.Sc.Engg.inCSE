@@ -1,19 +1,86 @@
 1. What is Proposition?
 -- Proposition is declarative sentence which can be TRUE or FALSE but cannot be both.
+		
+2. Not Proposition-
+-1. Questions.
+-2. Commands / Imperative.
+-3. If value is not defind ex.(x+2=5).
+-4. Opinion.
 
-2. What is Propositional Variables?
--- Variables that are use to represent propositions are called Propositional variables.
+3. What is Propositional Variables / Statement Variables?
+-- Variables that are use to represent propositions are called propositional variables.
 
-3. Logical Operators
-- Negation '¬' "It is not the case that P"
-- Conjunction '^' "and/but"
-- Disjunction/Inclusiv or '∨' "or"
-- Exclusive OR/XOR '⊕' "both can't be true"
-- Implication/conditional statement '→' "if P then Q"
--- Converse 'Q→P'
--- Contrapositive '¬Q→¬P'
-- - Inverse '¬P→¬Q'
-- Bitconditional '↔' "P if and only if Q" true if p and q are same.S (if and only if = iff)
+4. What is Compound Proposition?
+-- Compound proposition is a proposition formed by combining two or more simple proposition.
+
+5. What is Connectives?
+-- The logical operators that are used to form compound proposition is called connectives.
+
+6. Logical Operators
+-1. Negation '¬' "NOT"
+-2. Conjunction '^' "AND"
+-3. Disjunction '∨' "OR"
+-4. Exclusive OR/ExOR '⊕' "Both can't be true"
+-5. Implication/conditional statement '→' "if P then Q"
+--5.1- Converse 'Q→P'
+--5.2- Contrapositive '¬Q→¬P'
+- -5.3- Inverse '¬P→¬Q'
+-6. Equivalence / Bitconditional '↔' "if and only if / iff"
+
+# Negation '¬' "NOT"
+* Today is Friday.
+= Today is not friday.
+= It is not the case that today is friday.
+Ex: if today is friday = p then the negation is ¬p
+
+* 6 is negative.
+= It is not case that 6 is negative.
+
+* 2+1 = 3.
+= 2+1 ≠ 3.
+
+* There is no polution in new jersey.
+= There is polution in new jersey.
+
+* The summer in marine is hot and sunny.
+= It is not the case that the summer in marine is hot and sunny.
+
+# Conjunction '^' "AND"
+* Today is friday and its raining.
+Ex: if p=true and q= true only then p^q=true. Else, false.
+
+# Disjunction '∨' "OR"
+* Today is friday or its raining.
+Ex: if p=false and q=false only then p∨q= false. Else, true.
+
+# ExOR '⊕' "Both can't be true"
+* Students who have taken calculus or computer science, can join the class but not both.
+Ex: if p=true and q = true or p=false and q=false then p⊕q=false. Else, true.
+
+# Conditional statement '→' "if P then Q","if p,q","p is sufficient for","q if p"
+* If today is holiday then store is close.
+Ex: if p=true and q=false then p→q= false. Else, true.
+
+
+#conditional statement 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 4. Why "P only if Q" is not equivalent to "if Q then P"?
 -- P only if Q is false when p is TRUE and Q is FALSE, as when p is true and Q is false, "p only if q" is false but with same truth values of p and q, "if q then p" is true. Therefore "p only if q" is not equivalent to "if q then p". 
