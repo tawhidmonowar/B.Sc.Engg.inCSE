@@ -1,0 +1,8 @@
+Time Complexity
+Binary search = Big O(log n)
+Linear search = Big O(1)
+Selection sort = Big O(n²)
+Bubble Sort = Big O(n²)
+Quick Sort = Big O(n²)
+Insertion Sort = Big O(n²)
+Merge Sort = O(n*Log n)

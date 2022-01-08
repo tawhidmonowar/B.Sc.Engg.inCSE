@@ -1,0 +1,89 @@
+# What is Searching in Data Structure?
+= The process of finding the desired information from the set of items stored in the form of elements in the computer memory is referred to as 'searching in data structure'.
+
+# What is linear search in data structure?
+= Linear search is a very simple search algorithm. In this type of search, a sequential search is made over all items one by one. Every item is checked and if a match is found then that particular item is returned, otherwise the search continues till the end of the data collection.
+
+# What is binary Search in data structure?
+= Binary search is a fast search algorithm with run-time complexity of Ο(log n). This search algorithm works on the principle of divide and conquer. ... Binary search looks for a particular item by comparing the middle most item of the collection. If a match occurs, then the index of item is returned.
+
+# What is Stack Data Structure?
+= Stack is an abstract data type with a bounded(predefined) capacity. It is a simple data structure that allows adding and removing elements in a particular order. Every time an element is added, it goes on the top of the stack and the only element that can be removed is the element that is at the top of the stack. Stack follows (First-In-Last-Out) methodology.
+
+# What is Queue Data Structure?
+= The queue is an abstract data structure. Queue is open at both ends. One end is always used to insert data (enqueue), and the other is used to remove data (dequeue). Queue follows (First-In-First-Out) methodology.
+
+# Pseudocode
+Pseudocode is an artificial and informal language that helps programmers develop algorithms.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Time complexity
+Constant time - Big O(1)
+Linear time - Big O(n)
+Big O(1) < Big O(log n) < Big O(√n) < Big O(n) < Big O(n^2)...
+
+# Space complexity
+Capacity
+Viertual Memory > RAM > Cache Level 1 > Cache Level 2 > Register
+Speed
+Register > Cache Level 2 > Cache Level 1 > RAM > Viertual Memory
+
+# linear Search
+
+
+
+
+
+
+
+# Pseudocode
+Pseudocode is an artificial and informal language that helps programmers develop algorithms.
+
+# Pseudocode of binary search
+Step 1: Start
+Step 2: Input Sorted array in "a[]" and element to be searched in "x" and size of array in "size"
+Step 3: Initialize low=0, high=size-1
+Step 4: Repeat until low>=high
+        Step 4.1: mid=(low+high)/2
+        Step 4.2: If a[mid] is equal to x,
+                    then, print index value of mid and Goto step 6
+                Else
+                    If a[mid]<x
+                        low=mid+1
+                    else
+                        high=mid-1
+Step 5: Print x not found in the list
+Stop 6: Stop
+
+
+

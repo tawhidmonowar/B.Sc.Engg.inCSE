@@ -1,0 +1,1 @@
+Datatypes supported in C Programming Language are integer, character, float, double, long, boolean.
